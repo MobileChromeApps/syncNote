@@ -1,0 +1,19 @@
+{
+  "packageId": "org.chromium.iclelland.syncNote",
+  "versionCode": 1,
+  "CFBundleVersion": "0.0.1",
+  "incoming_sync_delay": {
+    "initial": 2000,
+    "maximum": 10000
+  },
+  "android": {
+    "oauth2": {
+      "client_id" : "427106820464-ru8dldnitej94g92kfdo5t3fr0pigmba.apps.googleusercontent.com"
+    }
+  },
+  "ios": {
+    "oauth2": {
+      "client_id": "427106820464-g8o1mqrknesu6ff1dtm0g4q7fg1ja6oo.apps.googleusercontent.com"
+    }
+  }
+}

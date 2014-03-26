@@ -1,0 +1,34 @@
+{
+  "name": "SyncNote",
+  "description": "Test SyncFileSystem by keeping notes",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "version": "0.0.1",
+  "offline_enabled": true,
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "36": "assets/icons/icon36.png",
+    "48": "assets/icons/icon48.png",
+    "57": "assets/icons/icon57.png",
+    "72": "assets/icons/icon72.png",
+    "96": "assets/icons/icon96.png",
+    "114": "assets/icons/icon114.png",
+    "128": "assets/icons/icon128.png",
+    "144": "assets/icons/icon144.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "syncFileSystem"
+  ],
+  "oauth2": {
+    "client_id": "427106820464-ru8dldnitej94g92kfdo5t3fr0pigmba.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAurzYk7lTZw9MBr8UgTf0mmRLenMy2riw1JcOsXQGvTKbfho9QiD7I20Q5uA9T6uzmnynm3ZqBg5LakN7EAIAbxqT2/s3od+FQESmcbgkokxLk0SCzIdRIYQ8QOcIdGTEBnJjWLn8wVppiHuV/90Fj+Gd61Waf5FQKfg1pVhabD+yzNxJ0zqEO6y+koHWd64ytFEsxYov0s+bhik3cdUSlHl5i5aGrrDKAwzN0RFlV6ffFRoz6CiVRr+pRsnNRoAGObSl+APpSdrMO0sraSi0q0lah2J6iXyR3vm4UNDKT/ftnEqhoMLoL/TnuJG1DBo2euk3rb6mhL3UyFGyDcV6EwIDAQAB"
+}

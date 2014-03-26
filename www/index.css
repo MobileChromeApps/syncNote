@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: OpenSans, Helvetica, Arial, sans;
+  height: 100%;
+  margin: 0;
+  background: hsl(66, 90%, 80%);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#app ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#app li {
+  padding: 12px;
+  margin: 0;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #aaa;
+  position: relative;
+}
+
+#app li .delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: red;
+  text-align: center;
+  display: block;
+  padding: 12px 0;
+  -webkit-transition:width 0.5s;
+}
+
+#app li .delete.visible {
+    width: 100px;
+}
+
+#note {
+  display: none;
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin:0;
+  top: 0;
+}
+
+#note .inner {
+  background: white;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  position: relative;
+  -webkit-box-shadow: #888 0px 5px 10px;
+}
+
+#note textarea {
+  width: 96%;
+  margin: 2%;
+  height: 200px;
+  border: 0;
+}
+
+button {
+  position: absolute;
+  bottom: 5px;
+}
