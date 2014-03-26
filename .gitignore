@@ -1,0 +1,6 @@
+platforms
+plugins
+hooks
+config.xml
+*.swp
+*.swo
